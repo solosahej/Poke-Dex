@@ -1,8 +1,35 @@
-# React + Vite
+# Introduction
+The **Pokedex Web Application** is a responsive and interactive web application designed to display information about various Pokémon. It is built using **React** and **Vite**, offering a fast and efficient development experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **Search Functionality:** Search for Pokémon by name or ID.
+- **Detailed View:** View detailed information about each Pokémon, including their stats, abilities, and types.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Performance Optimized:** Built with Vite for fast build and hot module replacement.
 
-Currently, two official plugins are available:
+## Prerequisites
+Ensure you have the following installed on your machine:
+- **Node.js** (v14 or higher)
+- **npm** (v6 or higher) or **Yarn** (v1.22 or higher)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/yourusername/pokedex.git
+    cd pokedex
+    ```
+
+2. **Install Dependencies:**
+    Using npm:
+    ```bash
+    npm install
+    ```
+    Or using Yarn:
+    ```bash
+    yarn install
+    ```
+
+## Running the Application
+To start the development server:
+```bash
+npm run dev
